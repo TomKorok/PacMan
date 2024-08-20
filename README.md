@@ -1,13 +1,18 @@
-# PacMan
-A Pac_Man-styled game using a randomized grid world environment and Q_learning method.
-The files contain both the agent and the environment which is displayed using the pygame library. 
+# Project Name
+Pac Man
+
+## Description
+A Pac Man-styled game using a randomized grid world environment and Q-learning method.
+The files contain both the agent and the environment which is displayed using the Pygame library. 
 The good bird is displayed with yellow, the bad one with red, the foods with green and the walls with grey rectangle.
 
-In this game, a good bird flies around eating food based on the Q_table while the bad bird tries to hunt it down using random steps. 
-The environment contains walls to make it more exciting, also the learning is much harder and takes more time.
+In this game, a good bird flies around eating food while the bad bird tries to hunt it down. The current action of the good bird is selected based on the Q-table while the bad bird flies around using randomized steps. 
+The environment contains walls to make it more exciting, but it increases the required episodes to achieve acceptable performance.
 
-The project was built as a practice and to have fun. 
+The project was implemented as a practice and to have fun. 
 
-To run the game simply copy the files and install the used libraries.
+## Installation
+To run the game clone the repo and install the used libraries.
 
-Future updates: It could be modified to a double agent environment. 
+## Future updates
+It could be modified to a double-agent environment. 
